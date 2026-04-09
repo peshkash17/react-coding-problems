@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm"
 import CounterApp from "@/components/CounterApp"
 import FocusInput from "@/components/FocusInput"
+import ScrollInToView from "@/components/ScrollInToView"
 import { Button } from "@/components/ui/button"
 
 export default function Page() {
@@ -9,7 +10,8 @@ export default function Page() {
       <div className="flex  w-full flex-col gap-4 text-sm leading-loose">
         {/* <ContactForm/> */}
         {/* <CounterApp/> */}
-        <FocusInput/>
+        {/* <FocusInput/> */}
+        <ScrollInToView/>
       </div>
     </div>
   )
