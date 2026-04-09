@@ -21,10 +21,7 @@ export default function ContactForm() {
         console.log('Form submitted', formData)
     }
     return (
-
-
-
-        <div className='h-full w-full flex gap-4 flex-col justify-center items-center border'>
+        <div className='h-full w-full flex  flex-col justify-center items-center border'>
             <h1 className='text-2xl'>Simple Contact Form</h1>
             <p>With persistence when the page is refreshed</p>
             <form onSubmit={handleSubmit} className='flex flex-col gap-2 border p-5 rounded-2xl'>
